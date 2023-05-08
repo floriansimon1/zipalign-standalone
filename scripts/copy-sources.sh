@@ -22,3 +22,5 @@ rm -rf ${BASEDIR}/src/libutils/*_fuzz.cpp
 cp -R ${BASEDIR}/aosp-source/logging/liblog/include/ ${BASEDIR}/include/liblog/
 cp -R ${BASEDIR}/aosp-source/logging/liblog/*.cpp ${BASEDIR}/src/liblog/
 cp -R ${BASEDIR}/aosp-source/logging/liblog/*.h ${BASEDIR}/src/liblog/
+
+cp -R ${BASEDIR}/aosp-source/core/libsystem/include/ ${BASEDIR}/include/libsystem/
