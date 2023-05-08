@@ -7,3 +7,6 @@
 [submodule "aosp-source/logging"]
 	path = aosp-source/logging
 	url = https://android.googlesource.com/platform/system/logging
+[submodule "aosp-source/libbase"]
+	path = aosp-source/libbase
+	url = https://android.googlesource.com/platform/system/libbase
