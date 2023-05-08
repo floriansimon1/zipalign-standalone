@@ -4,3 +4,6 @@
 [submodule "aosp-source/core"]
 	path = aosp-source/core
 	url = https://android.googlesource.com/platform/system/core
+[submodule "aosp-source/logging"]
+	path = aosp-source/logging
+	url = https://android.googlesource.com/platform/system/logging
