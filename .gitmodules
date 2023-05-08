@@ -1,0 +1,3 @@
+[submodule "aosp-source/build"]
+	path = aosp-source/build
+	url = https://android.googlesource.com/platform/build
