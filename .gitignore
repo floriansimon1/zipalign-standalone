@@ -2,5 +2,13 @@
 
 makefiles/
 out/
-include/
-src/
+include/libbase
+include/libsystem
+include/libutils
+include/zopfli
+include/libziparchive
+src/zopfli
+src/libbase
+src/libutils
+src/zipalign
+src/libziparchive
