@@ -1,0 +1,9 @@
+{
+    "version": "2.0.0",
+    "tasks": [{
+        "label": "Clear Output APK",
+        "command": "rm",
+        "args": ["-f", "/Users/florian/Desktop/b.apk"],
+        "type": "shell"
+    }]
+}

@@ -12,8 +12,9 @@
 #define ALOGW_IF(args...)
 #define ALOG_ASSERT(args...)
 #define LOG_FATAL_IF(args...)
-#define LOG_ALWAYS_FATAL(args...)
-#define LOG_ALWAYS_FATAL_IF(args...)
+
+#define LOG_ALWAYS_FATAL(args...) exit(1)
+#define LOG_ALWAYS_FATAL_IF(cond, args...) if (cond) exit(1)
 
 #define __android_log_print(args...)
 #define android_errorWriteLog(args...)
