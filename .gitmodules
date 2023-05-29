@@ -10,3 +10,6 @@
 [submodule "aosp-source/libziparchive"]
 	path = aosp-source/libziparchive
 	url = https://android.googlesource.com/platform/system/libziparchive
+[submodule "aosp-source/zopfli"]
+	path = aosp-source/zopfli
+	url = https://github.com/google/zopfli.git
